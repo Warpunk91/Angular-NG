@@ -16,7 +16,8 @@ ngOnInit() {
   this.items = [
   {
     label: 'Home',
-    icon: 'pi pi-home'
+    icon: 'pi pi-home',
+    routerLink: '/'
   },
   {
     label: 'Features',
@@ -30,8 +31,6 @@ ngOnInit() {
       label: 'Ejemplos 1',
       icon: 'pi pi-bolt',
       routerLink: './signal-ejemplo1'
-
-
     },
     {
       label: 'Ejemplos 2',
@@ -39,10 +38,15 @@ ngOnInit() {
       routerLink: './signal-ejemplo2'
     },
     {
-      label: 'UI Kit',
-      icon: 'pi pi-pencil'
+      label: 'Ejemplos 3',
+      icon: 'pi pi-server',
+      routerLink: './signal-ejemplo3'
+    },{
+      label: 'Ejemplos 4',
+      icon: 'pi pi-server',
+      routerLink: './signal-ejemplo4'
     },
-    {
+    /*{
       label: 'Templates',
       icon: 'pi pi-palette',
       items: 
@@ -56,7 +60,7 @@ ngOnInit() {
           icon: 'pi pi-palette'
         }
       ]
-    }
+    }*/
   ]
   },
   {

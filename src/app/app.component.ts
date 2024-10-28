@@ -9,7 +9,7 @@ import { FooterComponent } from './components/layout/footer/footer.component';
   imports: [
     RouterOutlet, 
     MenuComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
